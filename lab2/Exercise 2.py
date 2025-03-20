@@ -9,7 +9,7 @@ q = np.array([0.2, 0.5])  # rotation around Z-axis (theta)
 a = np.array([0.75, 0.5]) # displacement along X-axis
 alpha = np.zeros(2)       # rotation around X-axis 
 revolute = [True, True] 
-sigma_d = np.array([0.0, 1.0, ])
+sigma_d = np.array([0.0, 1.0, 1.0])
 K = np.diag([1, 1])
 
 # Simulation params
